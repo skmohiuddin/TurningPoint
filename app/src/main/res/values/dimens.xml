@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="call_button_width">66dp</dimen>
+    <dimen name="call_button_height">66dp</dimen>
+</resources>

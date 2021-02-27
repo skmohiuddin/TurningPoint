@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+    <item  android:id="@+id/item3"
+        android:title="Item 1"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_search_category_default"/>
+    <item  android:id="@+id/item1"
+        android:title="Item 1"
+        app:showAsAction="always"
+        android:icon="@drawable/logout"/>
+
+    <item  android:id="@+id/item2"
+        android:title="Online"
+
+
+        android:checkable="true" />
+</menu>

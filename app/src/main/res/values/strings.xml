@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Turning Point</string>
+    <string name="password_hint">password</string>
+    <string name="signup_btn">Sing up</string>
+    <string name="login_btn">Login</string>
+    <string name="email_hint">Email</string>
+
+
+</resources>

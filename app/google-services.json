@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "419077798271",
+    "firebase_url": "https://level-nimbus-92305.firebaseio.com",
+    "project_id": "level-nimbus-92305",
+    "storage_bucket": "level-nimbus-92305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419077798271:android:673af8c2a4578f3e55c24a",
+        "android_client_info": {
+          "package_name": "com.turningpoint.contact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA98PQA8LOnhKNihfQql8j89PnFfUViLTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419077798271-sf52koushgru4jr783p4br4a0sip0a1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419077798271:android:ff060532cb1c531c55c24a",
+        "android_client_info": {
+          "package_name": "com.turningpoint.message"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA98PQA8LOnhKNihfQql8j89PnFfUViLTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419077798271-sf52koushgru4jr783p4br4a0sip0a1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

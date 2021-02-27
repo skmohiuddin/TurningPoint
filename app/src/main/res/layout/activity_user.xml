@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/rainbow2"
+
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="409dp"
+        android:layout_height="372dp"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+
+        android:indeterminateDrawable="@drawable/pro2"
+        android:translationX="30dp"
+        android:translationY="150dp" />
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeToRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="590dp"
+        android:translationY="48dp"
+        android:visibility="visible">
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="410dp"
+            android:layout_height="590dp"
+
+
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+
+            android:layout_marginTop="49dp"
+            android:layout_marginBottom="2dp"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="horizontal|vertical"
+            android:visibility="visible">
+
+        </ListView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <EditText
+
+
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/rainbow"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:inputType="phone"
+        android:onClick="choice"
+        android:singleLine="true"
+        android:textColor="#D81B60"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="search"
+        android:translationX="300dp"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="31dp"
+        android:onClick="speakButtonClicked"
+        android:translationX="250dp"
+        android:translationY="10dp"
+        app:srcCompat="@drawable/mic" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:onClick="number"
+        android:text="Number"
+        android:translationX="-28dp"
+        android:translationY="42dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:onClick="name"
+        android:text="Name"
+        android:translationX="65dp"
+        android:translationY="42dp" />
+
+</RelativeLayout>
